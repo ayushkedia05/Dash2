@@ -7,5 +7,11 @@
 }
 
 .companyname{
-    margin-left: 0.5rem;
+    margin-left: 0.7rem;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+   /* color: rgb(252, 252, 252) ; */
+   /* font-weight: bolder; */
+    font: 100;
 }

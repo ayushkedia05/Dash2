@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './applayout.css'
-import {eye} from './../../images/eye.png'
+// import {logofrom './../../images/eye.png'  
 import { NavbarSimple } from '../sidenavigationbar/sidenavigation';
 import {
   AppShell,
@@ -40,7 +40,7 @@ const Layout=()=> {
       }
     
       header={
-        <Header height={70} p="md">
+        <Header height={80} p="md">
           <div style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
             <MediaQuery largerThan="sm" styles={{ display: 'none' }}>
               <Burger
@@ -53,8 +53,8 @@ const Layout=()=> {
             </MediaQuery>
 
            <div className='head'>
-             <img src='eye'></img>
-             <Text className='companyname'>Dark eye</Text>
+             <img src=''></img>
+             <Text className='companyname'><h1>Dark Eye</h1></Text>
               </div>
           </div>
         </Header>
