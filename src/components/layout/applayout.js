@@ -20,7 +20,7 @@ const Layout=()=> {
     <AppShell
       styles={{
         main: {
-          background: theme.colorScheme === 'dark' ? theme.colors.dark[0] : theme.colors.gray[0],
+          background: theme.colors.dark[5] 
         },
       }}
       navbarOffsetBreakpoint="sm"

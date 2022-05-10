@@ -22,6 +22,7 @@ const useStyles = createStyles((theme, _params, getRef) => {
       paddingTop: theme.spacing.md,
       marginTop: theme.spacing.md,
       borderTop: `1px solid black`,
+      // backgroundColor:'black'
     },
 
     link: {
@@ -101,7 +102,7 @@ export function NavbarSimple() {
         <Group className={classes.header} position="apart">
         </Group>
         {links}
-      </Navbar.Section>
+      </Navbar.Section> 
 
       <Navbar.Section className={classes.footer}>
         <a href="#" className={classes.link} onClick={(event) => event.preventDefault()}>
