@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './applayout.css'
 // import {logofrom './../../images/eye.png'  
+import RenderRow from './renderer';
 import { NavbarSimple } from '../sidenavigationbar/sidenavigation';
+import Tablecomponent from '../table/table';
 import {
   AppShell,
   Navbar,
@@ -60,7 +62,8 @@ const Layout=()=> {
         </Header>
       }
     >
-      <Text>Resize app to see responsive navbar in action</Text>
+      
+      <RenderRow></RenderRow>
     </AppShell>
   );
 }

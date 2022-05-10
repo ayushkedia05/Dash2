@@ -1,0 +1,7 @@
+.renderer {
+  /* width: inherit; */
+  /* margin-top: rem; */
+  margin-left: 1rem;
+  box-shadow: rgba(241, 239, 239, 0.2) 0px 2px 8px 0px;
+  padding: 1rem 0.8rem 1rem 1rem;
+}
