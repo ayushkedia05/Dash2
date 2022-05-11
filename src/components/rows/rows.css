@@ -7,6 +7,11 @@
   flex-direction: row;
 }
 
+.unexpandedrow:hover{
+  /* background-color: antiquewhite; */
+  scale: 1.01;
+}
+
 /* .access {
     min-width: 14.5rem;
     text-align: left;

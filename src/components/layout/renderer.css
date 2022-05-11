@@ -1,7 +1,14 @@
 .renderer {
   /* width: inherit; */
   /* margin-top: rem; */
+  
   margin-left: 1rem;
-  box-shadow: rgba(241, 239, 239, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(15, 15, 15, 0.507) 0px 2px 8px 0px;
   padding: 1rem 0.8rem 1rem 1rem;
+
+  background-color: #29272749  ;
 }
+/* 
+.renderer:hover{
+  background-color: azure;
+} */

@@ -4,6 +4,10 @@ import './applayout.css'
 import RenderRow from './renderer';
 import { NavbarSimple } from '../sidenavigationbar/sidenavigation';
 import Tablecomponent from '../table/table';
+
+import Scan from '../Scan/scan';
+
+import StatusAdjust from '../statuscard/cardadjust';
 import {
   AppShell,
   Navbar,
@@ -19,10 +23,10 @@ const Layout=()=> {
   const theme = useMantineTheme();
   const [opened, setOpened] = useState(false);
   return (
-    <AppShell
+    <div><AppShell
       styles={{
         main: {
-          background: theme.colors.dark[5] 
+          background: theme.colors.dark[9] 
         },
       }}
       navbarOffsetBreakpoint="sm"
@@ -62,9 +66,11 @@ const Layout=()=> {
         </Header>
       }
     >
-      
+      <div className='marginadd'></div>
+      <StatusAdjust></StatusAdjust>
+      <Scan></Scan>
       <RenderRow></RenderRow>
-    </AppShell>
+    </AppShell></div>
   );
 }
 
