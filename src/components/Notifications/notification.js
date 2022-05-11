@@ -3,6 +3,12 @@ import React from "react";
 import { Notification } from "@mantine/core";
 import './notification.css'
 const Notifi=()=>{
+
+  const onClose=()=>{
+    
+  }
+
+
 return(
     <div>
     <Notification className="notify" title="Default notification">
