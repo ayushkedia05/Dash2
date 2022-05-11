@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { MantineProvider } from '@mantine/core';
+import { Loader } from 'tabler-icons-react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MantineProvider theme={{ colorScheme: 'dark' }} withGlobalStyles withNormalizeCSS>
+    <MantineProvider theme={{ colorScheme: 'dark' ,loader:'bars '}} withGlobalStyles withNormalizeCSS>
       <App />
     </MantineProvider>
     {/* <App></App> */}

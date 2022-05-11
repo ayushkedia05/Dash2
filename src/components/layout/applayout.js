@@ -4,7 +4,7 @@ import './applayout.css'
 import RenderRow from './renderer';
 import { NavbarSimple } from '../sidenavigationbar/sidenavigation';
 import Tablecomponent from '../table/table';
-
+import Notification from '../Notifications/notification';
 import Scan from '../Scan/scan';
 
 import StatusAdjust from '../statuscard/cardadjust';
@@ -40,7 +40,7 @@ const Layout=()=> {
       aside={
         <MediaQuery smallerThan="sm" styles={{ display: 'none' }}>
           <Aside p="md" hiddenBreakpoint="sm" width={{ sm: 200, lg: 300 }}>
-            <Text>Application sidebar</Text>
+           <Notification></Notification>
           </Aside>
         </MediaQuery>
       }
